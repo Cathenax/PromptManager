@@ -20,6 +20,7 @@ class PromptsManager {
     }
   }
 
+  //count and show how many interactions from ChatGPT and DALL-E and show them in console.log
   showTypeCount(){
     let countOfGPT = 0;
     let countOfDalle = 0;

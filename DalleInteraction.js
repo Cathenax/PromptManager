@@ -17,6 +17,7 @@ class DalleInteraction extends Interaction {
         console.log(`******Dalle Prompt: ${this.prompt} has response: ${this.response}, and the url is ${this.url}\n`);
     }
 
+    //return the type of the interaction
     returnType(){
         return "Dalle";
     }
