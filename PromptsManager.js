@@ -1,4 +1,4 @@
-import Interaction from "./Interaction.js"
+import Interaction from "./Interaction.js";
 import DalleInteraction from "./DalleInteraction.js";
 
 class PromptsManager {
@@ -34,12 +34,13 @@ class PromptsManager {
     console.log(`The number of GPT interactions is ${countOfGPT}\nThe number of Dalle interactions is ${countOfDalle}`);
   }
 
+  //record both kinds of interactions
   recordPrompt(prompt, response, url="") {
-    if(url === ""){
+    if(url === ""){// is a normal interaction from chatGPT
       const newInteraction = new Interaction(prompt, response);
       this.interactions.push(newInteraction);
     }
-    else{
+    else{ // is a Dalle interaction
       const newInteraction = new DalleInteraction(prompt, response, url);
       this.interactions.push(newInteraction);
     }

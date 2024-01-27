@@ -8,7 +8,7 @@ class Interaction  {
   }
 
   show(){
-    console.log(`******Prompt: ${this.prompt} has response: ${this.response}\n`)
+    console.log(`******Prompt: ${this.prompt} has response: ${this.response}\n`);
   }
 
   //return the type of the interaction
