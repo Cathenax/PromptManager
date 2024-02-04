@@ -45,7 +45,12 @@ class PromptsManager {
       this.interactions.push(newInteraction);
     }
   }
-
+  /* 
+  Comment: I like the way you write recordPrompt which combines addDalleInteraction and addInteraction into one concise method.
+  The way I fulfill the requirement to add interactions is creating add dalle interaction and normal interaction separately.
+  Perhaps you can inform users how to properly user this method to fulfill their different needs
+  */
+  
   //Design and implement a way for the user to remove Interactions that were added before.
   remove(i){
     if (this.interactions.length < i) {
