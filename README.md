@@ -13,3 +13,5 @@
 `PromptsManager.showTypeCount()`count and show how many interactions from ChatGPT and DALL-E and show them in console.log 
 
 #### Run node main.js to see how them works
+
+// Comment: This is a concise and great ReadMe! Some suggestions: consider elaborate on specific methods in each class, like inform users there is show() method in Interaction and remove() method in PromptManager, and what each method does and returns.
